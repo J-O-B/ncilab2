@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Mukta', sans-serif;
+}
+#cover-header{
+    position: relative;
+    min-height: 50vh;
+}
+.cover-name{
+    font-size:56px;
+}
+.cover-buttons{
+    width: 150px;
+}
+#letter{
+    padding: 20px;
+    background: lightgray;
+    border-radius: 20px 20px 0 0;
+    font-size: large;
+}
+#programming-skills>div{
+    transition: all 0.5s ease-in-out;
+}
+#programming-skills>div:hover{
+    transform:scale(1.2);
+}
